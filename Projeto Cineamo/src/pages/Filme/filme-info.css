@@ -1,0 +1,57 @@
+.filme-info {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin-bottom: 30px;
+}
+
+.botoes {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.icon-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icone {
+  margin-right: 5px;
+}
+
+.filme-info img {
+  border-radius: 20px;
+}
+
+.filme-info button {
+  margin-right: 10px;
+  margin-top: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 0;
+  font-size: 20px;
+  outline: none;
+  padding: 12px;
+  background-color: rgb(210, 210, 210);
+  transition: all 0.25s;
+}
+
+.filme-info button:hover {
+  background-color: rgb(196, 43, 43);
+  color: #fff;
+}
+
+/* Abaixo, para mudar a cor do elemento filho <a> quando o mouse passa
+por cima do botão, me bati de leves para fazer isso */
+.filme-info button:hover a {
+  color: #fff;
+}
+
+.filme-info a {
+  transition: all 0.25s;
+  text-decoration: none;
+  color: #000;
+}
